@@ -1,0 +1,15 @@
+Claro, aquí tienes tus apuntes corregidos y ampliados:
+
+---
+
+~Nietzsche~ _Nietzsche_ _busca una crítica radical y sistemática a la cultura occidental, enfocándose en los modos tradicionales de entender el conocimiento y la realidad_. ~buscaba un autor racional y dogmático. Nos nos habla de la Apolíneo y Dionisiaco para llegar al objetivo de su filósofo~ (Esta frase es confusa y no refleja adecuadamente el pensamiento de Nietzsche). Además, _hace una crítica a la metafísica y al lenguaje, argumentando que el conocimiento tradicional, fundamentado en conceptos y categorías estáticas, nos aleja de la comprensión genuina de la realidad_. ~es decir, que el conocimiento no sirve para conocer la verdadera realidad.~ (Es importante clarificar que Nietzsche no descarta la posibilidad del conocimiento, sino que critica el concepto tradicional de verdad).
+
+~Nos presenta el pensamiento Nietzscheano, y con su obra 'La gaya ciencia', en~ _En **La gaya ciencia** introduce la idea de la 'muerte de Dios', que simboliza la caída de las verdades absolutas y la crisis del fundamento trascendental_. El nihilismo _es el reconocimiento de la ausencia de un sentido objetivo en la existencia, lo cual puede ser paralizante o una oportunidad para revalorar la vida._ ~La voluntad del poder es importante para llegar a la verdad, la cual es el resultado de la intuición. La verdad es la razón de todo y sin ella no veremos la realidad.~ (Esta parte también está confusa y mezcla conceptos erróneamente. La voluntad de poder no es un medio para llegar a la verdad). _La 'voluntad de poder', tan central en Nietzsche, se refiere más bien a una fuerza primaria y dinámica que impulsa a los individuos a superar y crear sus propios valores._
+
+_Nietzsche parte de una crítica radical a la cultura occidental, que prioriza la racionalidad y el pensamiento apolíneo. Esta cultura, representada por Sócrates, Platón y la filosofía cristiana, busca verdades inmutables y universales._ Su obra **El origen de la tragedia** _contrapone lo apolíneo y lo dionisíaco, valorando este último como una expresión de la vida más auténtica y vital._
+
+_Critica a la metafísica tradicional por construir una visión estática y rígida de la realidad. En contraste, Nietzsche defiende una perspectiva más fluida y dinámica del conocimiento y la existencia._ El conocimiento, por otro lado, _no es una herramienta para captar la realidad definitiva, sino un instrumento para la interpretación y la creación continua._ Nos presenta el pensamiento Nietzscheano, con su obra **Así habló Zaratustra**, _donde desarrolla la idea del 'superhombre' o Übermensch, una figura que trasciende los antiguos valores y crea nuevos, afirmando la vida._
+   
+---
+
+Estos ajustes servirán para que tu texto sea más coherente y refleje de manera más precisa y profunda el pensamiento de Nietzsche sobre el conocimiento y la realidad. ¡Mucho éxito en tu preparación para la Selectividad!
