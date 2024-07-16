@@ -1,5 +1,4 @@
 import requests
-from utils.images import encode_image
 import streamlit as st
 import base64
 
