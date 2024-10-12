@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 from utils.gpt_api import get_api_response, prompt_original
 from docx import Document
 from io import BytesIO
