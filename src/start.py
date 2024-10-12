@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 from utils.gpt_api import get_api_response, prompt_original
-
+from docx import Document
+from io import BytesIO
+from datetime import datetime
 
 st.set_page_config(
     page_title="Corregidor by CMR",
@@ -26,24 +28,40 @@ if ok_button:
     # images = os.listdir('./data')
     images = [ (image.read(), image.name) for image in images if '.jpg' in image.name or '.jpeg'in image.name]
 
+    # initialize doc to save as docx
+    doc = Document()
+
     divide_percent = len(images)
     for i in range(divide_percent):
         image, image_name = images[i]
 
-        response = get_api_response(prompt, image)
-        response_md = response.json()['choices'][0]['message']['content']
+        with st.spinner('Esperando la respuesta del modelo...'):
+            response = get_api_response(prompt, image) 
+        
+        with st.spinner('Guardando la respuesta...'):
+            response_md = response.json()['choices'][0]['message']['content']
+            doc.add_paragraph(response_md)
 
-        st.markdown(response_md)
+        my_bar.progress((i+1)/divide_percent, text='Procesando ficheros')
 
-        complete_name = image_name.split('.')[0]+image_name.split('.')[1]
-        output_file = './data/output/'+complete_name+'.md'
-        with open(output_file, 'w', encoding='utf-8') as archivo:
-            archivo.write(response_md)
-
-        my_bar.progress((i+1)/divide_percent, text='Leyendo imágenes y generando respuestas...')
 
 
     ## resultados análisis (nr ficheros procesados)
     st.success(f'{len(images)} ficheros procesados correctamente')
+
+
+    # Guardar el documento en memoria
+    doc_io = BytesIO()
+    doc.save(doc_io)
+    doc_io.seek(0)
+
+    time_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    st.download_button(
+        label="📥 Descargar resumen",
+        data=doc_io,
+        file_name=f"resultado_corregidor_{time_stamp}.docx",
+        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+
 
 
