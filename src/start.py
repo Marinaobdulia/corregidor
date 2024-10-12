@@ -41,7 +41,8 @@ if ok_button:
             response_md = response.json()['choices'][0]['message']['content']
             doc.add_heading(f'Imagen {i+1}')
             doc.add_paragraph(response_md)
-            doc.add_page_break()
+            if i+1 != divide_percent:
+                doc.add_page_break()
 
         my_bar.progress((i+1)/divide_percent, text='Procesando ficheros')
 
