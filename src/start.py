@@ -17,7 +17,7 @@ st.markdown('---')
 ## prompt modificable - input texto
 with st.form('form_1'):
     images = st.file_uploader('Suba todas las imágenes que desee analizar', type= ['.jpg', '.jpeg'], accept_multiple_files=True)
-    prompt = st.text_area('Introduzca el prompt que desea ejecutar', prompt_original)
+    prompt = st.text_area('Introduzca el prompt que desea ejecutar:')
     ok_button = st.form_submit_button('Ok')
 
 if ok_button:
